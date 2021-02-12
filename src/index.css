@@ -74,7 +74,8 @@ body {
 }
 .result h1 {
   font-size: 2rem;
-  color: #187979;
+  /* color: #187979; */
+  color: white;
 }
 .result h3 {
   color: #3badad;
