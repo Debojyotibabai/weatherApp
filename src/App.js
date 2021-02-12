@@ -6,7 +6,7 @@ const App = () => {
     SetInputValue(e.target.value);
   };
   const [Details, SetDetails] = useState({
-    Name: "Search for city namesss",
+    Name: "Search for city name",
     Temp: "",
     Description: "",
   });
