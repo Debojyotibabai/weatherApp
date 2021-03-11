@@ -22,7 +22,7 @@ const App = () => {
         .then((data) => {
           SetDetails({
             Name: data.name,
-            Temp: `${data.main.temp}°`,
+            Temp: `${data.main.temp}° C`,
             Description: data.weather[0].description,
           });
         });
