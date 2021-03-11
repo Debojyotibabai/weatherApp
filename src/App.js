@@ -43,7 +43,7 @@ const App = () => {
           autoFocus
           value={InputValue}
         ></input>
-        <button type="submit">Search</button>
+        <button type="submit">Search.</button>
       </form>
       <div className="result">
         <h1>{Details.Name}</h1>
